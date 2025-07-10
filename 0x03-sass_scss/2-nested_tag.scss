@@ -1,0 +1,10 @@
+$zero-size:10px; //$zero-size is a Sass variable storing 10px.
+
+body {
+  margin: $zero-size;
+  padding: $zero-size; 
+}
+
+body p {
+  margin: 10px; 
+}

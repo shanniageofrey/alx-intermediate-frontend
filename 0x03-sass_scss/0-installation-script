@@ -1,1 +1,14 @@
 //To install sass I run npm install sass -v 3.7.4 command on my terminal.//
+
+// I installed Sass in brew and npm
+// => brew install sass/sass/sass and npm install -g sass
+
+// Then I made the file 0-installation-script inside 0x03-sass_scss directory
+// => sass 0-debug_log.scss
+
+
+
+
+
+
+
