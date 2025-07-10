@@ -1,10 +1,12 @@
-$sizeTen:10px;
-$sizeFifteen:15px;
+@mixin margin-x($size) {
+    margin-left:$size; //inside the mixin,$size is the parameter set to margin-left & margin-right
+    margin-right:$size;
+}
 
 body {
-  margin-left: $sizeTen;
-  margin-right: $sizeTen; }
+  @include margin-x (10px); //I use margin-x mixin to replace the $size with 10px;
+}
 
 div {
-  margin-left: $sizeFifteen;
-  margin-right: $sizeFifteen; }
+ @include margin-x (15px); //I use margin-x mixin to replace the $size with 15px;
+}
